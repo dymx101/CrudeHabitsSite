@@ -1,0 +1,156 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #C4D4E4 url("../images/bg_small.jpg") no-repeat fixed center;
+	background-size: cover;
+
+	font-family: 'Quicksand', sans-serif;
+
+	min-width: 550px;
+}
+
+.clearBoth {
+	clear: both;
+}
+
+.hide {
+	display: none;
+	visibility: hidden;
+}
+
+.content_center {
+	width: 900px;
+	margin: 0px auto;
+}
+
+header {
+	padding-top: 50px;
+	margin-left: 5%;
+}
+
+#header_logo_container {
+	float: left;
+	margin-left: 10px;
+}
+
+#header_logo_text {
+	float: left;
+	
+}
+
+#ch_logo_pic {
+	width: 114px;
+	height: 114px;
+}
+
+#crudehabits_logo_text_pic {
+}
+
+#nav_container {
+	width: 100%;
+	height: 50px;
+	background-color: #cf3b3d;
+	position: fixed;
+	bottom: 15px;
+}
+
+.nav_top {
+	bottom: 180px ! important;
+
+	-moz-transition: all 2s;
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 2s;	
+}
+
+#nav_container ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#nav_container ul li {
+	float: right;
+	margin: 0px 20px;
+	padding: 0px;
+}
+
+#nav_container ul li a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 22px;
+	line-height: 50px;
+}
+
+#nav_container ul li a:hover {
+	color: #222222;
+}
+
+#nav_container .nav_selected {
+	font-weight: bold;
+	color: #222222;
+}
+
+#fb_link_img {
+	width: 39px;
+	height: 39px;
+	margin-top: 5px;
+}
+
+#left_iphone_and_appstore_img_container {
+	position: fixed;
+	bottom: 0px;
+	left: 5%;
+}
+
+#iphone_img {
+	position: relative;
+	bottom: -250px;
+}
+
+#app_store_img {
+	margin-left: 5px;
+	position: relative;
+	bottom: 25px;
+}
+
+#transparent_container_wrapper {
+	margin-top: 65px;
+	width: 100%;
+	overflow: hidden;
+}
+
+#transparent_container {
+	background-color: rgba(255, 255, 255, 0.85);
+	color: #000000;
+
+	padding: 40px 0px;
+
+	position: relative;
+
+	overflow: auto;
+}
+
+#transparent_container h2 {
+	font-weight: normal;
+	font-size: 42px;
+}
+
+#transparent_container p {
+	font-weight: 400;
+	font-size: 20px;
+}
+
+#transparent_container p a {
+	text-decoration: none;
+	color: #00A8DB;
+}
+
+#transparent_container p a:hover {
+	text-decoration: underline;
+}
+
+.transparent_content {
+	margin-left: 500px;
+	margin-right: 50px;
+}
